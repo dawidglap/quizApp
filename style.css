@@ -14,8 +14,50 @@ body{
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1{
-    font-weight: 500;
+
+
+.quiz-card{
+    background: rgba( 252, 252, 252, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    /* border: 30px solid rgba( 255, 255, 255, 0.18 ); */
+    /* padding: 2rem; */
+    width: 600px;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+button{
+    width: 100%;
+    /* background: linear-gradient(-170deg, rgba(252,252,255,0.5) 0%, rgba(148,252,166,0.5) 35%, rgba(0,212,255,0.5) 100%); */
+    background-color:rgba(148,252,166,0.7) ;
+    display: block;
+    padding: 2rem;
+    font-family: inherit;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.3rem;
+    -webkit-transition: background-color 0.7s ease-out;
+    -moz-transition: background-color 0.7s ease-out;
+    -o-transition: background-color 0.7s ease-out;
+    transition: background-color 0.7s ease-out;
+    cursor: pointer;
+
+    
+}
+
+button:hover{
+    
+    background-color:rgba(0,212,255,0.8);
 }
